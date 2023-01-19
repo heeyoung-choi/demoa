@@ -1,6 +1,8 @@
 import {Component} from 'react'
 import './App.css'
 import RlsCounter from './components/Clock'
+import { Header } from './components/Header'
+
 export default class App extends Component{
   constructor(){
     super()
@@ -10,8 +12,12 @@ export default class App extends Component{
   render(){
      return(
       <div className='App'>
-        We've been together for
-        <RlsCounter></RlsCounter>
+        <Header></Header>
+        <div className='rlscounter'>
+          We have been together for
+          <RlsCounter></RlsCounter>
+        </div>
+        
       </div>
       
      )

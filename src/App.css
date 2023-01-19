@@ -11,6 +11,9 @@
     width: 300px
 }
 *{
-    background-color: #de5a1d;
+    background-color: #db2ec1;
     color: white;
+}
+.rlscounter{
+    font-size: 20px;
 }
