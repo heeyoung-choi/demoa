@@ -1,6 +1,6 @@
 import { Component } from "react";
 import dangbee from '../img/dang-bee.jpg'
-import nhu1 from '../img/nhuxeoxat.JPG'
+import nhu1 from '../img/nhuxeoxat.jpg'
 import './Header.css'
 export class Header extends Component
 {
